@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100;400&display=swap');
+
+.project-card {
+  position: relative;
+  border: 2px white solid;
+  border-radius: 10px;
+  height: 30em;
+  width: 20%;
+}
+
+.project-card:hover {
+  background-color:rgba(0, 0, 0, 0.35)
+}
+
+.modal-content {
+  height: 710px;
+}
