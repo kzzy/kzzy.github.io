@@ -57,7 +57,7 @@ export default function Projects() {
                     <p style={{color: 'rgba(255, 255, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '100', fontSize: '17px', textAlign: 'center', marginTop: '5%', width: '90%', margin: 'auto'}}>
                         I made this single-page application personal website as a fun project to showcase my experience and projects, while learning React, JS, Styling, and more.
                     </p>
-                    <a href="https://github.com/kzzy/eden"><img src={'/githubicon.png'} title="Eden Repository" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img></a>
+                    <a href="https://github.com/kzzy/kzzy.github.io"><img src={'/githubicon.png'} title="Eden Repository" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img></a>
                 </div>
                 <div className="project-card" style={{marginTop: '-30em', marginLeft: '65%'}}>
                     <img src={'/tcbotprojecticon.png'} alt="Website" style={{width: '128px', height: '128px', marginTop: '15%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
