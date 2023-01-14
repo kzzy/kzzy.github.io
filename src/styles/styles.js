@@ -18,7 +18,8 @@ export const Background = styled.div`
     bottom: 0;
     right: 0;
     background-image: url('/background.jpg');
-    opacity: 0.1;
+    background-position: center center;  
+    opacity: 0.2;
     content: "";
     z-index: -3;
     }

@@ -28,17 +28,17 @@ const AccordionStyle = styled.div`
 
   #card1.card-header {
     cursor: pointer;
-    background-image: url('/realtorlogo.png');
-    background-size: 33vh;
+    background-image: url('/schneiderelectriclogo.png');
+    background-size: 170px 120px;
     background-repeat: no-repeat;
     background-position: right;
     height: 4rem;
-  }
-  
+  }  
+
   #card2.card-header {
     cursor: pointer;
-    background-image: url('/vihalogo.jpg');
-    background-size: 15vh;
+    background-image: url('/realtorlogo.png');
+    background-size: 260px 64px;
     background-repeat: no-repeat;
     background-position: right;
     height: 4rem;
@@ -46,8 +46,17 @@ const AccordionStyle = styled.div`
   
   #card3.card-header {
     cursor: pointer;
+    background-image: url('/vihalogo.jpg');
+    background-size: 150px 64px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 4rem;
+  }
+  
+  #card4.card-header {
+    cursor: pointer;
     background-image: url('/emsilogo.jpg');
-    background-size: 33vh;
+    background-size: 260px 180px;
     background-repeat: no-repeat;
     background-position: right;
     height: 4rem;
@@ -71,7 +80,19 @@ const CardInAccordion = styled.div`
 
 function ExpAccordion() {
   const tabs = [
-    { id: 1, cardid: "card1", label: "Co-op Software Engineer", 
+    { id: 1, cardid: "card1", label: "Co-op Software Designer", 
+      description:  <CardInAccordion>
+                      Co-op Software Designer at Schneider Electric, Victoria, BC<br/><br/>
+                      <ul>
+                        <li>Developed frontend client facing components in Typescript</li>
+                        <li>Created services in Angular to promote code reusability and perform backend REST API calls</li>
+                        <li>Written over 75 unit tests in Jasmine and executed using Karma</li>
+                        <li>Participated in Agile methodology under the SCRUM framework as a development team member to design and deliver solutions</li>
+                      </ul><br/>
+                      September 2021 - December 2021
+                    </CardInAccordion>
+    },
+    { id: 2, cardid: "card2", label: "Co-op Software Engineer", 
       description:  <CardInAccordion>
                       Co-op Software Engineer at Realtor.com, Richmond, BC<br/><br/>
                       <ul>
@@ -83,7 +104,7 @@ function ExpAccordion() {
                       September 2019 - April 2020
                     </CardInAccordion>
     },
-    { id: 2, cardid: "card2", label: "Administrative Support", 
+    { id: 3, cardid: "card3", label: "Administrative Support", 
       description:  <CardInAccordion>
                       Admin Support Volunteer at the Royal Jubilee Hospital, Victoria, BC<br/><br/>
                       <ul>
@@ -95,7 +116,7 @@ function ExpAccordion() {
                       January 2019 - July 2019
                     </CardInAccordion>
     },
-    { id: 3, cardid: "card3", label: "Data Entry", 
+    { id: 4, cardid: "card4", label: "Data Entry", 
       description: <CardInAccordion>
                     Data Entry Volunteer at Early Music Society of the Islands, Victoria, BC<br/><br/>
                       <ul>

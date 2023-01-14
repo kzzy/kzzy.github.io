@@ -68,7 +68,7 @@ export default function About() {
                 I'm a Computer Science student on my final year
                 at the University of Victoria. I enjoy building and
                 contributing to cool projects. My work has consisted
-                of personal projects, volunteer work, and an internship
+                of personal projects, volunteer work, and multiple internships
                 which are all covered on the website.
               </p>
             </animated.div>

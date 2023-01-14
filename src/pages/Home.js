@@ -37,8 +37,13 @@ export default function Home() {
         <animated.div style={homeProps}>
           <Name>Austin Hu</Name>
           <Description>
-            Hello! I am an aspiring Software Engineer<br/> 
-            with an interest in creativity, design, and exploration.
+            Hello! I am a Computer Science Graduate<br/> 
+            with an interest in Full stack SWE, Data-based roles, and other trinkets.
+            <br/> 
+            <br/> 
+            <br/> 
+            <br/> 
+            Currently Seeking Junior SWE or Data positions.
           </Description>
         </animated.div>
       </HeaderContainer>

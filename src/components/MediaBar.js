@@ -2,15 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const MediaBarStyle = styled.div`
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
+    bottom: -1%;
     margin: auto;
-    height: 100px;
+    height: 64px;
     width: 128px; 
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 1rem;
-    top: 94%;
     
     img {
         width: 64px;
