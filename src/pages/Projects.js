@@ -30,45 +30,48 @@ export default function Projects() {
             <HeaderText>
                 <animated.div style={titleTextProps}>
                     <p>Projects</p>
-                    <h2 style={{position: 'absolute', fontFamily: 'Raleway, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '17px', textAlign: 'center', color: 'white', margin: 'auto', width: '100%', marginTop: '-1.25%'}}>
+                    <h2 style={{position: 'absolute', fontFamily: 'Raleway, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '17px', textAlign: 'center', color: 'white', margin: 'auto', width: '100%', marginTop: '-25.25px', 'min-width': '600px'}}>
                         Personal Projects, Work Projects, and other things done out of interest
                     </h2>
                 </animated.div>
             </HeaderText>
             <animated.div style={blackBarProps}>
-                <BlackBar/>
-            </animated.div>
-            <animated.div style={blackBarContentProps}>
-                <div className="project-card" style={{marginTop: '-34em', marginLeft: '15%'}}>
-                    <img src={'/k6projecticon.png'} alt="Website" style={{width: '128px', height: '128px', marginTop: '15%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
-                    <h1 style={{color: 'rgba(0, 110, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '35px', textAlign: 'center',  marginTop: '10%'}}>
-                        Performance Test
-                    </h1>
-                    <p style={{color: 'rgba(255, 255, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '100', fontSize: '17px', textAlign: 'center', marginTop: '5%', width: '90%', margin: 'auto'}}>
-                        During my co-op at Realtor.com, I setup the framework for a service offering performance testing using K6 that is hosted on AWS to eventually be integrated into the Jenkins pipeline or manually ran as a job.
-                    </p>
-                    <img role="button" onClick={handleOpenPerfProjectModal} src={'/imagesicon.webp'} title="Performance Test" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img>
-                </div>
-                <div className="project-card" style={{marginTop: '-30em', marginLeft: '40%'}}>
-                    <img src={'/edenprojecticon.png'} alt="Website" style={{width: '128px', height: '128px', marginTop: '15%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
-                    <h1 style={{color: 'rgba(0, 110, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '35px', textAlign: 'center',  marginTop: '10%'}}>
-                        Eden
-                    </h1>
-                    <p style={{color: 'rgba(255, 255, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '100', fontSize: '17px', textAlign: 'center', marginTop: '5%', width: '90%', margin: 'auto'}}>
-                        I made this single-page application personal website as a fun project to showcase my experience and projects, while learning React, JS, Styling, and more.
-                    </p>
-                    <a href="https://github.com/kzzy/kzzy.github.io"><img src={'/githubicon.png'} title="Eden Repository" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img></a>
-                </div>
-                <div className="project-card" style={{marginTop: '-30em', marginLeft: '65%'}}>
-                    <img src={'/tcbotprojecticon.png'} alt="Website" style={{width: '128px', height: '128px', marginTop: '15%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
-                    <h1 style={{color: 'rgba(0, 110, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '35px', textAlign: 'center',  marginTop: '10%'}}>
-                        TCBot
-                    </h1>
-                    <p style={{color: 'rgba(255, 255, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '100', fontSize: '17px', textAlign: 'center', marginTop: '5%', width: '90%', margin: 'auto'}}>
-                        One of my first personal projects was a Discord Bot written in Python for my server that contained moderating tools, and was tasked with setting up instances for inhouse games.
-                    </p>
-                    <a href="https://github.com/kzzy/tsunchan"><img src={'/githubicon.png'} title="TCBot Repository" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img></a>
-                </div>
+                <BlackBar>
+                    <animated.div style={blackBarContentProps}>
+                        <div style={{marginTop: '10px', width: '100vw', display: 'flex', 'align-items': 'center'}}>
+                            <div className="project-card" style={{left: '10vw', width: '20vw', 'min-width': '350px'}}>
+                                <img src={'/k6projecticon.png'} alt="Website" style={{width: '128px', height: '128px', marginTop: '15%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
+                                <h1 style={{color: 'rgba(0, 110, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '35px', textAlign: 'center',  marginTop: '10%'}}>
+                                    Performance Test 
+                                </h1>
+                                <p id="projects-p" style={{fontSize: '17px'}}>
+                                    During my co-op at Realtor.com, I setup the framework for a service offering performance testing using K6 that is hosted on AWS to eventually be integrated into the Jenkins pipeline or manually ran as a job.
+                                </p>
+                                <img role="button" onClick={handleOpenPerfProjectModal} src={'/imagesicon.webp'} title="Performance Test" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img>
+                            </div>
+                            <div className="project-card" style={{left: '20vw', width: '20vw', 'min-width': '350px'}}>
+                                <img src={'/edenprojecticon.png'} alt="Website" style={{width: '128px', height: '128px', marginTop: '15%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
+                                <h1 style={{color: 'rgba(0, 110, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '35px', textAlign: 'center',  marginTop: '10%'}}>
+                                    Eden
+                                </h1>
+                                <p id="projects-p">
+                                    I made this single-page application personal website as a fun project to showcase my experience and projects, while learning React, JS, Styling, and more.
+                                </p>
+                                <a href="https://github.com/kzzy/kzzy.github.io" target="_blank" rel="noopener noreferrer"><img src={'/githubicon.png'} title="Eden Repository" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img></a>
+                            </div>
+                            <div className="project-card" style={{left: '30vw', width: '20vw', 'min-width': '350px'}}>
+                                <img src={'/tcbotprojecticon.png'} alt="Website" style={{width: '128px', height: '128px', marginTop: '15%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}></img>
+                                <h1 style={{color: 'rgba(0, 110, 255, 0.7)', fontFamily: 'Montserrat, sans-serif', fontStyle: 'normal', fontWeight: '400', fontSize: '35px', textAlign: 'center',  marginTop: '10%'}}>
+                                    TCBot
+                                </h1>
+                                <p id="projects-p">
+                                    One of my first personal projects was a Discord Bot written in Python for my server that contained moderating tools, and was tasked with setting up instances for inhouse games.
+                                </p>
+                                <a href="https://github.com/kzzy/tsunchan" target="_blank" rel="noopener noreferrer"><img src={'/githubicon.png'} title="TCBot Repository" alt='Repository' style={{width: '64px', height: '64px', position: 'absolute', left: '0', bottom: '0'}}></img></a>
+                            </div>
+                        </div>
+                    </animated.div>
+                </BlackBar>
             </animated.div>
             <Modal show={perfProjectModal} onHide={handleClosePerfProjectModal} dialogClassName="project-perfmodal" size="xl" centered>
                 <Modal.Header closeButton />

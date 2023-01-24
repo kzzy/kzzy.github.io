@@ -27,7 +27,7 @@ export const Background = styled.div`
 
 export const HeaderText = styled.div`
   margin: auto;
-  padding-top: 6%;
+  padding-top: 13vh;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -41,21 +41,31 @@ export const HeaderText = styled.div`
 `;
 
 export const BlackBar = styled.div`
+  display: flex;
   width: 100%;
-  margin: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 62vh;
+  min-height: 500px;
 
-  p {
-    position: relative;
+  #about-p {
+    min-width: 550px;
     width: 35%;
-    left: 15%;
-    padding-top: 6%;
+    top: 80px;
     color: #9FFFCB;
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 26px;
+  }
+
+  #projects-p {
+    width: 90%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
   }
 `

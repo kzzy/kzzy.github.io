@@ -43,7 +43,7 @@ export default function Home() {
             <br/> 
             <br/> 
             <br/> 
-            Currently Seeking Junior SWE or Data positions.
+            Currently Seeking Junior SWE, Data positions, but am open to all opportunities.
           </Description>
         </animated.div>
       </HeaderContainer>

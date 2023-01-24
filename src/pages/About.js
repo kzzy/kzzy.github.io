@@ -5,11 +5,10 @@ import styled from 'styled-components';
 
 const CardStyle = styled.div`
   #about.card {
-    max-width: 35%;
-    top: -52vh;
-    left: 55vw;
-    width: 42em;
-    height: 23em;
+    width: 600px;
+    min-width:600px;
+    height: 350px;
+    min-height: 350px;
     background: grey;
     border-radius: 5px;
     background-image: url('/about-card.jpg');
@@ -63,22 +62,24 @@ export default function About() {
         </HeaderText>
         <animated.div style={blackBarProps}>
           <BlackBar>
-            <animated.div style={blackBarContentProps}>
-              <p>
-                I'm a Computer Science student on my final year
-                at the University of Victoria. I enjoy building and
-                contributing to cool projects. My work has consisted
-                of personal projects, volunteer work, and multiple internships
-                which are all covered on the website.
-              </p>
-            </animated.div>
+            <div style={{width: '60%', margin:'auto', display: 'flex'}}>
+              <animated.div style={blackBarContentProps}>
+                <p id="about-p">
+                  I'm a new Computer Science Graduate from
+                  the University of Victoria. I enjoy building and
+                  contributing to cool projects. My work has consisted
+                  of personal projects, volunteer work, and multiple internships
+                  which are all covered on the website.
+                </p>
+              </animated.div>
+              <CardStyle>
+                <animated.div style={blackBarContentProps}>
+                  <Card/>
+                </animated.div>
+              </CardStyle>
+            </div>
           </BlackBar>
         </animated.div>
-        <CardStyle>
-          <animated.div style={blackBarContentProps}>
-              <Card />
-          </animated.div>
-        </CardStyle>
       </Background>
     )
 }
