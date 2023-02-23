@@ -84,10 +84,10 @@ function ExpAccordion() {
       description:  <CardInAccordion>
                       Co-op Software Designer at Schneider Electric, Victoria, BC<br/><br/>
                       <ul>
-                        <li>Developed frontend client facing components in Typescript</li>
-                        <li>Created services in Angular to promote code reusability and perform backend REST API calls</li>
-                        <li>Written over 75 unit tests in Jasmine and executed using Karma</li>
-                        <li>Participated in Agile methodology under the SCRUM framework as a development team member to design and deliver solutions</li>
+                        <li>Developed client facing components, stylesheets, and updated the ASP.NET backend for an Angular web application as part of an complete overhaul from a legacy codebase</li>
+                        <li>Created REST API calling services under the microservices architecture in Angular, and tested using Postman</li>
+                        <li>Written over 75 unit tests using the Jasmine BDD framework and executed in Karma</li>
+                        <li>Worked under Agile methodology using the SCRUM framework as a software development team member to design and deliver solutions</li>
                       </ul><br/>
                       September 2021 - December 2021
                     </CardInAccordion>
@@ -96,10 +96,11 @@ function ExpAccordion() {
       description:  <CardInAccordion>
                       Co-op Software Engineer at Realtor.com, Richmond, BC<br/><br/>
                       <ul>
-                        <li>Devised and implemented the backend infrastructure for a dockerized application on AWS to provide a performance testing service for other development teams</li>
-                        <li>Designed and created GUIs for performance test statuses and results on Slack and GitHub to present data in an easily digestible form and to quickly notify developers of immediate concerns</li>
+                        <li>Built a bash-based performance test results notification system using webhooks and integrated with Jenkins CI/CD pipelines to monitor performance goals across development teams</li>
+                        <li>Established a SaaS performance testing platform on AWS that included CloudFormation, EC2, Autoscaling, ECS, S3, and CloudWatch to replace a 3rd party subscription based application, saving thousands of dollars yearly</li>
+                        <li>Deployed new features for a series of inhouse websites that were using a combination of React or AngularJS for the frontend, and Express.js, Node.js, DynamoDB for the backend</li>
+                        <li>Implemented 100+ automated performance tests on various schedules with test data streamed to AWS S3 buckets and visualized on Grafana to detect performance degradation</li>
                         <li>Worked with Webpagetest and Neoload to setup and run customized performance tests</li>
-                        <li>Developed and maintained inhouse SaaS applications to assist other teams</li>
                       </ul><br/>
                       September 2019 - April 2020
                     </CardInAccordion>

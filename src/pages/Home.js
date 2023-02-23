@@ -37,13 +37,12 @@ export default function Home() {
         <animated.div style={homeProps}>
           <Name>Austin Hu</Name>
           <Description>
-            Hello! I am a Computer Science Graduate<br/> 
-            with an interest in Full stack SWE, Data-based roles, and other trinkets.
+            Hello! I am a Computer Science 2023 New Graduate<br/> 
+            with an interest in Full stack and Infrastructure SWE, and other trinkets.
             <br/> 
             <br/> 
             <br/> 
-            <br/> 
-            Currently Seeking Junior SWE, Data positions, but am open to all opportunities.
+            Currently Seeking New Grad / Associate SWE positions, but am open to all opportunities.
           </Description>
         </animated.div>
       </HeaderContainer>
